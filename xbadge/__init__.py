@@ -1,0 +1,1 @@
+from .xbadge import XBadgeXBlock

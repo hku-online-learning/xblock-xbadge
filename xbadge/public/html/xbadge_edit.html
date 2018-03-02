@@ -1,0 +1,63 @@
+<div class="wrapper-comp-settings is-active editor-with-buttons" id="settings-tab">
+<ul class="list-input settings-list">
+    <li class="field comp-seeting-entry is-set">
+        <div id="div_course_num" class="wrapper-comp-setting">
+            <label class="label setting-label"></label>
+            <span class="tip setting-help">display_num_with_default</span>
+            <p><label class="label setting-label"><strong>Course NO. </strong></label>
+            <input class="input setting-input" id="input_course_num" value={{myCourseNum}} type="text">
+            <button id="button_course_num">OK</button></p>
+        </div>
+        <div id="div_course_run" class="wrapper-comp-setting">
+            <label class="label setting-label"><strong>Course Run: </strong></label>
+                <select id="select_course_run" size="1" disabled>
+                    <option>{{myCourseRun}}</option>
+                </select>
+        </div>
+        <button id="button_course_run" disabled>Change Course</button>
+    </li>
+
+    <li class="field comp-setting-entry is-set">
+        <div id="div_badge_num" class="wrapper-comp-setting">
+            <label class="label setting-label"><strong>Number of Badges: </strong></label>
+            <input class="input setting-input edit-number_of_groups" id="input_badge_num" value= {{nBadges}} type="number" min="1" max="20">
+            <span class="tip setting-help">Example: 7</span>
+        </div>
+        <div id="div_title" class="wrapper-comp-setting">
+        </div>
+        <button id="button_badge_num" disabled>Update Badge Number</button>
+        <button id="button_show_map"><strong>Show Badge Mapping</strong></button>
+    </li>
+    <p>Chapter-Seq-Ver-<strong>Video</strong></p>
+    <div id="div_map"></div>
+    <p>Chapter-Seq-Ver-<strong>Quiz</strong></p>
+    <div id="div_quiz"></div>
+
+    <li class="field comp-setting-entry is-set">
+        <label class="label setting-label"><strong>Pass Score of Quiz: </strong></label>
+        <p><input class="input setting-input edit-number_of_groups" id="input_quiz_pass" value= {{quizPass}} type="number" min="0" max="100">%</p>
+    </li>
+
+    <li class="field comp-setting-entry is-set">
+    <div id="div_color" class="wrapper-comp-setting">
+        <p>Color</p>
+    </div>
+    </li>
+    <li class="field comp-setting-entry is-set">
+    <div id="div_grey" class="wrapper-comp-setting">
+        <p>Grey</p>
+    </div>
+    </li>
+</ul>
+<div class="xblock-actions">
+        <span class="xblock-editor-error-message"></span>
+        <ul>
+            <li class="action-item">
+                <a href="#" class="save-button action-primary action">Save</a>
+            </li>
+            <li class="action-item">
+                <a href="#" class="button cancel-button">Cancel</a>
+            </li>
+        </ul>
+    </div>
+</div>

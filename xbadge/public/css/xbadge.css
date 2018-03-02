@@ -1,0 +1,31 @@
+/* CSS for XBadgeXBlock */
+
+.xbadge_block .count {
+    font-weight: bold;
+}
+
+.xbadge_block p {
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.xbadge_block td {
+    vertical-align: middle;
+}
+
+.description{
+    vertical-align: middle;
+    line-height: 200px;
+    font-size: 30px;
+}
+
+.badge_icon{
+    width:256px;
+    height:256px;
+    margin-right:5px;
+    padding-top: 14px;
+    padding-right: 14px;
+    padding-bottom: 14px;
+    padding-left: 14px;
+    font-family:arial;
+}

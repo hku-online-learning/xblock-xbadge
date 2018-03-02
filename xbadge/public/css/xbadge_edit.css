@@ -1,0 +1,38 @@
+/* CSS for Studio View */
+
+input#edit_show_labels, input#edit_donut {
+    min-width:20px; 
+    width:20px; 
+    height:20px; 
+    vertical-align:middle;
+}
+
+label#name, label#value {
+    text-align:center;
+    width: 20%;
+}
+
+input.group-name, input.group-value {
+    width: 70% !important;
+}
+
+#div_map{
+    overflow: auto;
+    height: 300px;
+    width: 80%;
+        }
+
+#div_quiz{
+    overflow: auto;
+    height: 300px;
+    width: 80%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
